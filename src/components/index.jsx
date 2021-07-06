@@ -270,11 +270,10 @@ class MaterialUiPhoneNumber extends React.Component {
 
   // Put the cursor to the end of the input (usually after a focus event)
   cursorToEnd = () => {
-    const { isModernBrowser } = this.props;
-
     const input = this.inputRef;
     if (input) {
       input.focus();
+      const { isModernBrowser } = this.props;
       if (isModernBrowser) {
         const len = input.value.length;
         input.setSelectionRange(len, len);
