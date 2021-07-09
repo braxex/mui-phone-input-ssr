@@ -6612,6 +6612,7 @@ fsevents@~2.3.1:
     file-loader: ^4.0.0
     lodash: ^4.17.14
     optimize-css-assets-webpack-plugin: ^5.0.3
+    prettier: ^2.3.2
     prop-types: ^15.7.2
     react: ^16.8.0
     react-dom: ^16.8.0
@@ -7785,6 +7786,15 @@ fsevents@~2.3.1:
   version: 1.1.2
   resolution: "prelude-ls@npm:1.1.2"
   checksum: 189c969c92151b0de7a6e5d2ae0c4e50bbec5675cdd9fee3b7509d9d74b6416787ee36a8c12a07e8afb01454a8185b695b3395912484fa118e071fea45223b9b
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.3.2":
+  version: 2.3.2
+  resolution: "prettier@npm:2.3.2"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 4fd89a7f6a12b13456d359fba2b1dd0fc0a17cf33f8f15953ab9f43b21ea9b09b5a2861d63b558ca0577274ce606d390e70628cf93e26d19d6cb7f19c9eebc31
   languageName: node
   linkType: hard
 
