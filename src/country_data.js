@@ -778,6 +778,7 @@ const rawAllCountries = [
     ['europe', 'european-union'],
     'lu',
     '352',
+    '+.. . ... ... ...',
   ],
   [
     'Macau',
@@ -911,6 +912,7 @@ const rawAllCountries = [
     ['africa'],
     'mz',
     '258',
+    '+... ... ......',
   ],
   [
     'Myanmar',
