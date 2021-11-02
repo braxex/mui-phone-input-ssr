@@ -719,7 +719,7 @@ class MaterialUiPhoneNumber extends React.Component {
       dropdownClass, autoFormat, disableAreaCodes, isValid, disableCountryCode,
       disableDropdown, enableLongNumbers, countryCodeEditable, onEnterKeyPress,
       isModernBrowser, classes, keys, localization, placeholder, regions, onChange,
-      value,
+      value, inputRef,
       // end placeholder props
       inputClass, error, InputProps,
       ...restProps
